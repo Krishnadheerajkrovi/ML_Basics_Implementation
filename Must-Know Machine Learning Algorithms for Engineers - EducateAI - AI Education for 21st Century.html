@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html class="js no-touchevents" style="scroll-behavior: auto !important;" lang="en-US"><head>
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="profile" href="https://gmpg.org/xfn/11">
+
+		
+	<!-- This site is optimized with the Yoast SEO plugin v15.9.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Must-Know Machine Learning Algorithms for Engineers - EducateAI - AI Education for 21st Century</title>
+	<meta name="description" content="This article comprises a list of the most essential machine learning algorithms that engineers need to know">
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+	<link rel="canonical" href="https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Must-Know Machine Learning Algorithms for Engineers - EducateAI - AI Education for 21st Century">
+	<meta property="og:description" content="This article comprises a list of the most essential machine learning algorithms that engineers need to know">
+	<meta property="og:url" content="https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/">
+	<meta property="og:site_name" content="EducateAI - AI Education for 21st Century">
+	<meta property="article:published_time" content="2021-03-13T16:27:11+00:00">
+	<meta property="article:modified_time" content="2021-04-14T12:32:29+00:00">
+	<meta property="og:image" content="https://www.educateai.org/wp-content/uploads/2021/03/Machine-Learning-Algorithms.png">
+	<meta property="og:image:width" content="519">
+	<meta property="og:image:height" content="272">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:label1" content="Written by">
+	<meta name="twitter:data1" content="betty">
+	<meta name="twitter:label2" content="Est. reading time">
+	<meta name="twitter:data2" content="4 minutes">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.educateai.org/#website","url":"https://www.educateai.org/","name":"EducateAI - AI Education for 21st Century","description":"","potentialAction":[{"@type":"SearchAction","target":"https://www.educateai.org/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/#primaryimage","inLanguage":"en-US","url":"https://www.educateai.org/wp-content/uploads/2021/03/Machine-Learning-Algorithms.png","width":519,"height":272,"caption":"Machine learning algorithms"},{"@type":"WebPage","@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/#webpage","url":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/","name":"Must-Know Machine Learning Algorithms for Engineers - EducateAI - AI Education for 21st Century","isPartOf":{"@id":"https://www.educateai.org/#website"},"primaryImageOfPage":{"@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/#primaryimage"},"datePublished":"2021-03-13T16:27:11+00:00","dateModified":"2021-04-14T12:32:29+00:00","author":{"@id":"https://www.educateai.org/#/schema/person/ac8ba69ba785be7f299cf3e5a8df7c5c"},"description":"This article comprises a list of the most essential machine learning algorithms that engineers need to know","breadcrumb":{"@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/"]}]},{"@type":"BreadcrumbList","@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://www.educateai.org/","url":"https://www.educateai.org/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/","url":"https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/","name":"Must-Know Machine Learning Algorithms for Engineers"}}]},{"@type":"Person","@id":"https://www.educateai.org/#/schema/person/ac8ba69ba785be7f299cf3e5a8df7c5c","name":"betty","sameAs":["https://www.educateai.org"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="EducateAI - AI Education for 21st Century » Feed" href="https://www.educateai.org/feed/">
+<link rel="alternate" type="application/rss+xml" title="EducateAI - AI Education for 21st Century » Comments Feed" href="https://www.educateai.org/comments/feed/">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v7.15.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/js" type="text/javascript" data-cfasync="false"></script>
+			<script type="text/javascript" data-cfasync="false">
+				var mi_version = '7.15.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStr = 'ga-disable-UA-111275625-1';
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					return document.cookie.indexOf( disableStr + '=true' ) > - 1;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if ( __gtagTrackerIsOptedOut() ) {
+					window[disableStr] = true;
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+					window[disableStr] = true;
+				}
+
+				if ( 'undefined' === typeof gaOptout ) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+				if ( mi_track_user ) {
+					function __gtagTracker() {
+						dataLayer.push( arguments );
+					}
+					__gtagTracker( 'js', new Date() );
+					__gtagTracker( 'set', {
+						'developer_id.dZGIzZG' : true,
+						                    });
+					__gtagTracker( 'config', 'UA-111275625-1', {
+						forceSSL:true,link_attribution:true,					} );
+					window.gtag = __gtagTracker;										(
+						function () {
+							/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+							/* ga and __gaTracker compatibility shim. */
+							var noopfn = function () {
+								return null;
+							};
+							var noopnullfn = function () {
+								return null;
+							};
+							var Tracker = function () {
+								return null;
+							};
+							var p = Tracker.prototype;
+							p.get = noopfn;
+							p.set = noopfn;
+							p.send = noopfn;
+							var __gaTracker = function () {
+								var len = arguments.length;
+								if ( len === 0 ) {
+									return;
+								}
+								var f = arguments[len - 1];
+								if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+									if ( 'send' === arguments[0] ) {
+										if ( 'event' === arguments[1] ) {
+											__gtagTracker( 'event', arguments[3], {
+												'event_category': arguments[2],
+												'event_label': arguments[4],
+												'value': 1
+											} );
+											return;
+										}
+										if ( 'undefined' !== typeof ( arguments[1].hitType ) ) {
+											var hitDetails = {};
+											var gagtag_map = {
+												'eventCategory': 'event_category',
+												'eventAction': 'event_action',
+												'eventLabel': 'event_label',
+												'eventValue': 'event_value',
+												'nonInteraction': 'non_interaction',
+												'timingCategory': 'event_category',
+												'timingVar': 'name',
+												'timingValue': 'value',
+												'timingLabel': 'event_label',
+											};
+											var gaKey;
+											for ( gaKey in gagtag_map ) {
+												if ( 'undefined' !== typeof arguments[1][gaKey] ) {
+													hitDetails[gagtag_map[gaKey]] = arguments[1][gaKey];
+												}
+											}
+											var action = 'timing' === arguments[1].hitType ? 'timing_complete' : arguments[1].eventAction;
+											__gtagTracker( 'event', action, hitDetails );
+										}
+									}
+									return;
+								}
+								try {
+									f.hitCallback();
+								} catch ( ex ) {
+								}
+							};
+							__gaTracker.create = function () {
+								return new Tracker();
+							};
+							__gaTracker.getByName = noopnullfn;
+							__gaTracker.getAll = function () {
+								return [];
+							};
+							__gaTracker.remove = noopfn;
+							__gaTracker.loaded = true;
+							window['__gaTracker'] = __gaTracker;
+						}
+					)();
+									} else {
+										console.log( "" );
+					( function () {
+						function __gtagTracker() {
+							return null;
+						}
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					} )();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.educateai.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=be02712056f7f199aadf1e6211aad944"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/frontend.css" type="text/css" media="all">
+<link rel="stylesheet" id="chaplin-google-fonts-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="chaplin-font-awesome-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="chaplin-style-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/style.css" type="text/css" media="all">
+<style id="chaplin-style-inline-css" type="text/css">
+:root{--body-font:DM Sans,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,sans-serif;--headings-font:Montserrat,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,sans-serif;--headings-weight:300;--primary-color:#082e54;--headings-color:#d90368;--buttons-background-color:#082e54;--secondary-color:#4f6483;--accent-color:#d90368;--border-color:#dae0e6;--light-background-color:#fff6f8;--overlay-text-color:#bf0052}body,.ff-body{font-family:DM Sans,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,sans-serif}h1,h2,h3,h4,h5,h6,.faux-heading,.ff-headings{font-family:Montserrat,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,sans-serif}h1,h2,h3,h4,h5,h6,.faux-heading,.fw-headings{font-weight:300}.bg-primary,.bg-primary-hover:hover,:root .has-primary-background-color{background-color:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.bg-primary,.bg-primary-hover:hover,:root .has-primary-background-color{background-color:color( display-p3 0.031 0.18 0.329 / 1 )}}.border-color-primary,.border-color-primary-hover:hover{border-color:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.border-color-primary,.border-color-primary-hover:hover{border-color:color( display-p3 0.031 0.18 0.329 / 1 )}}.color-primary,.color-primary-hover:hover,:root .has-primary-color,body,.main-menu-alt ul li{color:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.color-primary,.color-primary-hover:hover,:root .has-primary-color,body,.main-menu-alt ul li{color:color( display-p3 0.031 0.18 0.329 / 1 )}}.fill-children-primary,.fill-children-primary *{fill:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.fill-children-primary,.fill-children-primary *{fill:color( display-p3 0.031 0.18 0.329 / 1 )}}h1,h2,h3,h4,h5,h6,.faux-heading{color:#d90368}@supports ( color:color( display-p3 0 0 0 / 1 ) ){h1,h2,h3,h4,h5,h6,.faux-heading{color:color( display-p3 0.851 0.012 0.408 / 1 )}}.bg-secondary,.bg-secondary-hover:hover,:root .has-secondary-background-color{background-color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.bg-secondary,.bg-secondary-hover:hover,:root .has-secondary-background-color{background-color:color( display-p3 0.31 0.392 0.514 / 1 )}}.border-color-secondary,.border-color-secondary-hover:hover{border-color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.border-color-secondary,.border-color-secondary-hover:hover{border-color:color( display-p3 0.31 0.392 0.514 / 1 )}}.color-secondary,.color-secondary-hover:hover,:root .has-secondary-color,.wp-block-latest-comments time,.wp-block-latest-posts time{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.color-secondary,.color-secondary-hover:hover,:root .has-secondary-color,.wp-block-latest-comments time,.wp-block-latest-posts time{color:color( display-p3 0.31 0.392 0.514 / 1 )}}::-webkit-input-placeholder{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){::-webkit-input-placeholder{color:color( display-p3 0.31 0.392 0.514 / 1 )}}::-moz-placeholder{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){::-moz-placeholder{color:color( display-p3 0.31 0.392 0.514 / 1 )}}:-moz-placeholder{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){:-moz-placeholder{color:color( display-p3 0.31 0.392 0.514 / 1 )}}:-ms-input-placeholder{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){:-ms-input-placeholder{color:color( display-p3 0.31 0.392 0.514 / 1 )}}::placeholder{color:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){::placeholder{color:color( display-p3 0.31 0.392 0.514 / 1 )}}.fill-children-secondary,.fill-children-secondary *{fill:#4f6483}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.fill-children-secondary,.fill-children-secondary *{fill:color( display-p3 0.31 0.392 0.514 / 1 )}}.bg-accent,.bg-accent-hover:hover,:root .has-accent-background-color,button,.button,.faux-button,.wp-block-button__link,:root .wp-block-file a.wp-block-file__button,input[type='button'],input[type='reset'],input[type='submit']{background-color:#d90368}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.bg-accent,.bg-accent-hover:hover,:root .has-accent-background-color,button,.button,.faux-button,.wp-block-button__link,:root .wp-block-file a.wp-block-file__button,input[type='button'],input[type='reset'],input[type='submit']{background-color:color( display-p3 0.851 0.012 0.408 / 1 )}}.border-color-accent,.border-color-accent-hover:hover,blockquote{border-color:#d90368}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.border-color-accent,.border-color-accent-hover:hover,blockquote{border-color:color( display-p3 0.851 0.012 0.408 / 1 )}}.color-accent,.color-accent-hover:hover,:root .has-accent-color,a,.is-style-outline .wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline{color:#d90368}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.color-accent,.color-accent-hover:hover,:root .has-accent-color,a,.is-style-outline .wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline{color:color( display-p3 0.851 0.012 0.408 / 1 )}}.fill-children-accent,.fill-children-accent *{fill:#d90368}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.fill-children-accent,.fill-children-accent *{fill:color( display-p3 0.851 0.012 0.408 / 1 )}}button,.button,.faux-button,.wp-block-button__link,:root .wp-block-file a.wp-block-file__button,input[type='button'],input[type='reset'],input[type='submit'],:root .has-buttons-background-background-color{background-color:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){button,.button,.faux-button,.wp-block-button__link,:root .wp-block-file a.wp-block-file__button,input[type='button'],input[type='reset'],input[type='submit'],:root .has-buttons-background-background-color{background-color:color( display-p3 0.031 0.18 0.329 / 1 )}}:root .has-buttons-background-color,.is-style-outline .wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline{color:#082e54}@supports ( color:color( display-p3 0 0 0 / 1 ) ){:root .has-buttons-background-color,.is-style-outline .wp-block-button__link:not(.has-text-color),.wp-block-button__link.is-style-outline{color:color( display-p3 0.031 0.18 0.329 / 1 )}}.bg-border,.bg-border-hover:hover,:root .has-border-background-color,caption{background-color:#dae0e6}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.bg-border,.bg-border-hover:hover,:root .has-border-background-color,caption{background-color:color( display-p3 0.855 0.878 0.902 / 1 )}}.border-color-border,.border-color-border-hover:hover,pre,th,td,input,textarea,fieldset,.main-menu li,button.sub-menu-toggle,.wp-block-latest-posts.is-grid li,.wp-block-calendar,.footer-menu li,.comment .comment,.post-navigation,.related-posts,.widget,.select2-container .select2-selection--single{border-color:#dae0e6}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.border-color-border,.border-color-border-hover:hover,pre,th,td,input,textarea,fieldset,.main-menu li,button.sub-menu-toggle,.wp-block-latest-posts.is-grid li,.wp-block-calendar,.footer-menu li,.comment .comment,.post-navigation,.related-posts,.widget,.select2-container .select2-selection--single{border-color:color( display-p3 0.855 0.878 0.902 / 1 )}}.color-border,.color-border-hover:hover,:root .has-border-color,hr{color:#dae0e6}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.color-border,.color-border-hover:hover,:root .has-border-color,hr{color:color( display-p3 0.855 0.878 0.902 / 1 )}}.fill-children-border,.fill-children-border *{fill:#dae0e6}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.fill-children-border,.fill-children-border *{fill:color( display-p3 0.855 0.878 0.902 / 1 )}}.bg-light-background,.bg-light-background-hover:hover,:root .has-light-background-background-color,code,kbd,samp,table.is-style-stripes tr:nth-child( odd ){background-color:#fff6f8}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.bg-light-background,.bg-light-background-hover:hover,:root .has-light-background-background-color,code,kbd,samp,table.is-style-stripes tr:nth-child( odd ){background-color:color( display-p3 1 0.965 0.973 / 1 )}}.border-color-light-background,.border-color-light-background-hover:hover{border-color:#fff6f8}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.border-color-light-background,.border-color-light-background-hover:hover{border-color:color( display-p3 1 0.965 0.973 / 1 )}}.color-light-background,.color-light-background-hover:hover,:root .has-light-background-color,.main-menu-alt ul{color:#fff6f8}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.color-light-background,.color-light-background-hover:hover,:root .has-light-background-color,.main-menu-alt ul{color:color( display-p3 1 0.965 0.973 / 1 )}}.fill-children-light-background,.fill-children-light-background *{fill:#fff6f8}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.fill-children-light-background,.fill-children-light-background *{fill:color( display-p3 1 0.965 0.973 / 1 )}}.cover-header .entry-header,.overlay-header .header-inner:not(.is-sticky){color:#bf0052}@supports ( color:color( display-p3 0 0 0 / 1 ) ){.cover-header .entry-header,.overlay-header .header-inner:not(.is-sticky){color:color( display-p3 0.749 0 0.322 / 1 )}}
+</style>
+<link rel="stylesheet" id="chaplin-print-styles-css" href="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/print.css" type="text/css" media="print">
+<script type="text/javascript" id="monsterinsights-frontend-script-js-extra">
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.educateai.org","hash_tracking":"false","ua":"UA-111275625-1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/frontend-gtag.js" id="monsterinsights-frontend-script-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/jquery-migrate.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/imagesloaded.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/modernizr-touchevents.js" id="chaplin-modernizr-js"></script>
+<script type="text/javascript" id="chaplin-construct-js-extra">
+/* <![CDATA[ */
+var chaplin_ajax_load_more = {"ajaxurl":"https:\/\/www.educateai.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/construct.js" id="chaplin-construct-js"></script>
+<link rel="https://api.w.org/" href="https://www.educateai.org/wp-json/"><link rel="alternate" type="application/json" href="https://www.educateai.org/wp-json/wp/v2/posts/386"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.educateai.org/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.educateai.org/wp-includes/wlwmanifest.xml"> 
+
+<link rel="shortlink" href="https://www.educateai.org/?p=386">
+		<!-- Custom Logo: hide header text -->
+		<style id="custom-logo-css" type="text/css">
+			.site-title, .site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+		</style>
+		<link rel="alternate" type="application/json+oembed" href="https://www.educateai.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educateai.org%2Fmust-know-machine-learning-algorithms-for-engineers%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.educateai.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.educateai.org%2Fmust-know-machine-learning-algorithms-for-engineers%2F&amp;format=xml">
+	<script type="text/javascript">
+		var revue_ajaxurl = 'https://www.educateai.org/wp-admin/admin-ajax.php';
+	</script>
+			<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; background-image: url("https://www.educateai.org/wp-content/uploads/2020/12/her3.jpg"); background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+</style>
+			<style type="text/css" id="wp-custom-css">
+			.vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+background-color: #d90368 !important;
+}		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+	<style></style></head>
+
+	<body data-rsssl="1" class="post-template-default single single-post postid-386 single-format-standard custom-background wp-custom-logo pagination-type-button disable-search-modal disable-menu-modal-on-desktop has-post-thumbnail has-single-pagination not-showing-comments wpb-js-composer js-comp-ver-9.9.0 vc_responsive" style="scroll-behavior: auto !important;">
+
+		
+		<a class="skip-link faux-button" href="#site-content">Skip to the content</a>
+
+		
+			<header id="site-header">
+
+				
+				<div class="header-inner">
+
+					<div class="section-inner">
+
+						<div class="header-titles">
+
+															<div class="site-logo faux-heading">
+		<a href="https://www.educateai.org/" rel="home" class="custom-logo-link custom-logo">
+			<img src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/logo-1.png" width="3361" height="1589">
+		</a>
+
+		<span class="screen-reader-text">EducateAI - AI Education for 21st Century</span></div>
+							
+							
+						</div><!-- .header-titles -->
+
+						<div class="header-navigation-wrapper">
+
+							
+							<div class="main-menu-alt-container hide-js">
+
+								<ul class="main-menu-alt dropdown-menu reset-list-style">
+									<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://www.educateai.org/home/">Home</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://www.educateai.org/about/">About</a></li>
+<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="https://www.educateai.org/ai-ml-consultation/">AI/ML Consultation</a></li>
+<li id="menu-item-337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><a href="https://www.educateai.org/case-studies/">Case Studies</a></li>
+<li id="menu-item-323" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323"><a target="_blank" rel="noopener" href="https://www.getrevue.co/profile/educateAI">Newsletters</a></li>
+<li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><a href="https://www.educateai.org/blog/">Blog</a></li>
+<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="https://www.educateai.org/contact/">Contact</a></li>
+								</ul><!-- .main-menu-alt -->
+
+							</div><!-- .main-menu-alt-container -->
+
+							<div class="header-toggles hide-no-js">
+
+								
+								<a href="#" class="toggle nav-toggle" data-toggle-target=".menu-modal" data-toggle-screen-lock="true" data-toggle-body-class="showing-menu-modal" aria-pressed="false" data-set-focus=".menu-modal">
+									<div class="toggle-text">
+										Menu									</div>
+									<div class="bars">
+										<div class="bar"></div>
+										<div class="bar"></div>
+										<div class="bar"></div>
+									</div><!-- .bars -->
+								</a><!-- .nav-toggle -->
+
+								
+							</div><!-- .header-toggles -->
+
+							
+						</div><!-- .header-navigation-wrapper -->
+
+					</div><!-- .section-inner -->
+
+				</div><!-- .header-inner -->
+
+				
+				
+			</header><!-- #site-header -->
+
+			<div class="menu-modal cover-modal" data-modal-target-string=".menu-modal" aria-expanded="false">
+
+	<div class="menu-modal-inner modal-inner bg-body-background">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<div class="menu-modal-toggles header-toggles">
+
+					<a href="#" class="toggle nav-toggle nav-untoggle" data-toggle-target=".menu-modal" data-toggle-screen-lock="true" data-toggle-body-class="showing-menu-modal" aria-pressed="false" data-set-focus="#site-header .nav-toggle">
+						<div class="toggle-text">
+							Close						</div>
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div><!-- .bars -->
+					</a><!-- .nav-toggle -->
+
+				</div><!-- .menu-modal-toggles -->
+
+				
+				<ul class="main-menu reset-list-style">
+					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><div class="ancestor-wrapper"><a href="https://www.educateai.org/home/">Home</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><div class="ancestor-wrapper"><a href="https://www.educateai.org/about/">About</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><div class="ancestor-wrapper"><a href="https://www.educateai.org/ai-ml-consultation/">AI/ML Consultation</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-337"><div class="ancestor-wrapper"><a href="https://www.educateai.org/case-studies/">Case Studies</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323"><div class="ancestor-wrapper"><a target="_blank" rel="noopener" href="https://www.getrevue.co/profile/educateAI">Newsletters</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132"><div class="ancestor-wrapper"><a href="https://www.educateai.org/blog/">Blog</a></div><!-- .ancestor-wrapper --></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><div class="ancestor-wrapper"><a href="https://www.educateai.org/contact/">Contact</a></div><!-- .ancestor-wrapper --></li>
+				</ul><!-- .main-menu -->
+
+				
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+				<p class="menu-copyright">© 2022 <a href="https://www.educateai.org/">EducateAI – AI Education for 21st Century</a></p>
+
+				
+			<ul class="social-menu reset-list-style social-icons s-icons">
+
+				<li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="https://facebook.com/"><span class="screen-reader-text">Facebook</span></a></li>
+
+			</ul><!-- .social-menu -->
+
+			
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+		
+<main id="site-content">
+
+	<div class="articles">
+<article class="section-inner post-386 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-deep-learning category-machine-learning category-machine-learning-engineer" id="post-386">
+
+	<header class="entry-header">
+
+	<h1 class="entry-title">Must-Know Machine Learning Algorithms for Engineers</h1>
+		<div class="post-meta-wrapper post-meta-single post-meta-single-top">
+			<ul class="post-meta color-accent">
+
+											<li class="post-date">
+								<a class="meta-wrapper" href="https://www.educateai.org/must-know-machine-learning-algorithms-for-engineers/">
+									<span class="meta-icon">
+										<span class="screen-reader-text">Post date</span>
+										<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19"><path fill="" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z"></path></svg>									</span>
+									<span class="meta-text">
+										March 13, 2021									</span>
+								</a>
+							</li>
+							
+			</ul>
+		</div>
+
+		
+</header><!-- .entry-header -->
+
+			<figure class="featured-media">
+
+				<img src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Algorithms.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Machine learning algorithms" loading="lazy" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Algorithms.png 519w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Algorithms-300x157.png 300w" sizes="(max-width: 519px) 100vw, 519px" width="519" height="272">
+			</figure><!-- .featured-media -->
+
+		
+	
+	<div class="post-inner" id="post-inner">
+
+		<div class="entry-content">
+
+			<p class="ke kf id kg b kh ki kj kk kl km kn ko kp kq kr ks kt ku kv kw kx gq ja" data-selectable-paragraph="">Machine
+ learning as a field has been around for a long time before deep neural 
+networks took over the scene. Here is a list of the most essential 
+machine learning algorithms you need to know, so you can tackle any 
+problem that comes your way.&nbsp;This isn’t an exhaustive list, but 
+your bases will be mostly&nbsp;covered.</p>
+<p id="f45d" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">Also wanted to announce that my <a href="https://medium.com/@cdossman">medium blog</a>
+ will be transitioning from a general ML focus to a deep learning focus.
+ Most of my work nowadays involves creating novel deep learning systems,
+ so I want to spend more time writing about it!</p>
+<h2 id="e31a" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">1. Regression Algorithms</h2>
+<figure class="mc md me mf mg gu mh mi ff mj mk ml mm mn bl mo mp mq mr ms dc paragraph-image">
+<div class="hl hm am hn v ho" tabindex="0" role="button">
+<div class="gj gk mb">
+<div class="ht s am hu">
+<div class="mt hw s"><img loading="lazy" class="tl tm fp gb fy hq v c" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0FjKhbw6Va8O8bCkF_002.png" sizes="500px" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0FjKhbw6Va8O8bCkF_003.png 276w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0FjKhbw6Va8O8bCkF.png 500w" alt="Image for post" width="1000" height="666"></div>
+</div>
+</div>
+</div>
+</figure>
+<p>Regression algorithms model relationships between variables. 
+Originally a technique from statistics they have become an important 
+tool in every Machine learning engineer’s tool kit.</p>
+<h5>Common Regression Algorithms</h5>
+<ul class="">
+<li id="18cf" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx mu mv mw ja" data-selectable-paragraph="">Least Squares Regression</li>
+<li id="4201" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Linear Regression</li>
+<li id="baa6" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Logistic Regression</li>
+</ul>
+<p id="19c3" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><a class="cv nc" href="https://www.coursera.org/learn/regression-models/lecture/Kz1eV/introduction-to-regression" target="_blank" rel="noopener nofollow">Coursera Course</a>&nbsp;by Johns Hopkins on regression models</p>
+<h2 id="4c06" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">2. Clustering Algorithms</h2>
+<figure class="mc md me mf mg gu gj gk paragraph-image">
+<div class="gj gk nd">
+<div class="ht s am hu">
+<div class="ne hw s"><img loading="lazy" class="tl tm fp gb fy hq v c" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0ejHiglUGY-guIS13.png" sizes="600px" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0ejHiglUGY-guIS13_002.png 276w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0ejHiglUGY-guIS13_003.png 552w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0ejHiglUGY-guIS13.png 600w" alt="Image for post" width="600" height="400"></div>
+</div>
+</div>
+</figure>
+<p id="3158" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><mark class="tq tr ft">Clustering algorithms can divide data points into groups with similar properties. </mark>They
+ work by finding inherent structures in data to best organize data into 
+distinct groups. Things in the group are more closely related to each 
+other than things in other groups.</p>
+<p id="ad20" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">There
+ are two types of clustering algorithms. hard clustering refers to when a
+ data point is in a group or not. soft clustering refers to when a data 
+point can belong to many different groups to different degrees.</p>
+<h5 id="3bdd" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja">Common Clustering algorithms</h5>
+<ul class="">
+<li id="9da6" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx mu mv mw ja" data-selectable-paragraph="">K-means</li>
+<li id="a061" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Hierarchical Clustering</li>
+</ul>
+<p id="ecc2" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">An amazing<a class="cv nc" href="https://www.youtube.com/watch?v=ZueoXMgCd1c" target="_blank" rel="noopener nofollow">&nbsp;introductory video on clustering</a></p>
+<h2 id="b703" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">3. Dimensionality reduction algorithms</h2>
+<p id="09fd" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><mark class="tq tr ft">When
+ the number of features is very large compared to the number of data 
+points you have. Dimensional reduction algorithms help you reduce the 
+number of features to only what is necessary for the problem at hand.</mark>&nbsp;They can remove redundant or useless features, helping you get better results.</p>
+<p id="38b9" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">There
+ are two ways that dimensional reduction algorithms work. The first 
+method is through feature selection, where the algorithm picks a subset 
+of the available features. The second way is feature extraction, which 
+reduces the data in a high dimensional space to a lower one.</p>
+<h5 id="fcbf" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja">Common Dimensionality Reduction Algorithms</h5>
+<ul class="">
+<li id="10ae" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx mu mv mw ja" data-selectable-paragraph="">Principle component analysis</li>
+<li id="2925" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph=""><mark class="tq tr ft">Low Variance Filter</mark></li>
+<li id="4ab6" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">High Correlation Filter</li>
+<li id="5be9" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Random Forests</li>
+<li id="60f4" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Backward Feature Elimination / Forward Feature construction</li>
+</ul>
+<p id="c408" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">This
+ is not an exhaustive list, just some that I have used. If you want to 
+read up on this some more as well as see the ROI for some of these 
+algorithms check out the <a class="cv nc" href="https://www.kdnuggets.com/2015/05/7-methods-data-dimensionality-reduction.html" target="_blank" rel="noopener nofollow">KDnuggets blog post</a>&nbsp;on it.</p>
+<h2 id="7d8a" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">4. Decision Tree Algorithms</h2>
+<figure class="mc md me mf mg gu mh mi ff mj mk ml mm mn bl mo mp mq mr ms dc paragraph-image">
+<div class="hl hm am hn v ho" tabindex="0" role="button">
+<div class="gj gk nh">
+<div class="ht s am hu">
+<div class="ni hw s">
+<div class="dl hp fp gb fy hq v dg hr hs"></div>
+<p><img loading="lazy" class="tl tm fp gb fy hq v c" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/09ixcLxWxdVR_mh8L_003.png" sizes="500px" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/09ixcLxWxdVR_mh8L_002.png 276w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/09ixcLxWxdVR_mh8L.png 500w" alt="Image for post" width="724" height="571"></p>
+</div>
+</div>
+</div>
+</div>
+</figure>
+<p id="bdcb" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><mark class="tq tr ft">Decision trees create models of decisions made on values from your data.</mark>&nbsp;A
+ fork is made in the tree structure until there is a prediction for 
+every data point. Their results are easy to understand unlike other 
+algorithms (Deep Learning) and they are easy to use on many different 
+data types.</p>
+<h5 id="05f6" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja">Common Decision Tree Algorithms</h5>
+<ul class="">
+<li id="8cec" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx mu mv mw ja" data-selectable-paragraph="">Classification and Regression Tree</li>
+<li id="9f5f" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">C4.5 and <span style="color: #000000;"><span style="background-color: #ffff00;">C5.0&nbsp;</span></span></li>
+<li id="f414" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Random Forests</li>
+<li id="0c58" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Chi-squared automatic interaction detector</li>
+</ul>
+<p id="d7da" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><a class="cv nc" href="https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/" target="_blank" rel="noopener nofollow">Analytics Vidhya has a great article</a> that goes in-depth on decision trees. Listing out the different algorithms and their advantages and disadvantages</p>
+<h2 id="c3f4" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">Deep Learning</h2>
+<figure class="mc md me mf mg gu mh mi ff mj mk ml mm mn bl mo mp mq mr ms dc paragraph-image">
+<div class="hl hm am hn v ho" tabindex="0" role="button">
+<div class="gj gk mb">
+<div class="ht s am hu">
+<div class="nj hw s">
+<div class="dl hp fp gb fy hq v dg hr hs"></div>
+<p><img loading="lazy" class="tl tm fp gb fy hq v c" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0cdiIlneYaCI--0Ue_003.png" sizes="500px" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0cdiIlneYaCI--0Ue_002.png 276w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/0cdiIlneYaCI--0Ue.png 500w" alt="Image for post" width="1000" height="512"></p>
+</div>
+</div>
+</div>
+</div>
+</figure>
+<p id="3a1e" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph="">The hype behind machine learning and “AI” is caused by deep learning.&nbsp;<mark class="tq tr ft">They are modern versions of artificial neural networks that exploit cheap computation to train ever larger neural networks</mark>.
+ They are powerful universal function approximates that have proven 
+their ability in solving some of the hardest problems. See&nbsp;<a class="cv nc" href="https://en.wikipedia.org/wiki/AlphaGo" target="_blank" rel="noopener nofollow">Alpha Go</a>.</p>
+<h5 id="ccd4" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja">Common Deep Learning Algorithms</h5>
+<ul class="">
+<li id="1272" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx mu mv mw ja" data-selectable-paragraph="">Stacked Auto-encoders</li>
+<li id="0f7d" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Convolution Neural networks</li>
+<li id="3d02" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Recurrent neural networks</li>
+<li id="7f68" class="ke kf id kg b kh mx ki kj kk my kl km kn mz ko kp kq na kr ks kt nb ku kv kx mu mv mw ja" data-selectable-paragraph="">Capsule Networks (<a class="cv nc" href="https://hackernoon.com/what-is-a-capsnet-or-capsule-network-2bfbe48769cc" target="_blank" rel="noopener nofollow">more information here</a>)</li>
+</ul>
+<p id="7453" class="ke kf id kg b kh ky ki kj kk kz kl km kn la ko kp kq lb kr ks kt lc ku kv kx gq ja" data-selectable-paragraph=""><a class="cv nc" href="https://www.safaribooksonline.com/library/view/deep-learning/9781491924570/ch04.html" target="_blank" rel="noopener nofollow">Check out this book snippet.</a>&nbsp;It goes over the major architectures for deep learning.</p>
+<p data-selectable-paragraph="">Also read: <a href="https://www.educateai.org/top-6-cheat-sheets-novice-machine-learning-engineers-need/">Top 6 Cheat Sheets Novice Machine Learning Engineers Need</a></p>
+<p data-selectable-paragraph="">Also read: <a href="https://www.educateai.org/the-best-artificial-intelligence-and-machine-learning-books-in-2021/">The Best Artificial Intelligence and Machine Learning Books in 2021</a></p>
+<h2 id="5b4f" class="ld le id ba lf lg lh li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma ja" data-selectable-paragraph="">Take away</h2>
+<p>If you are serious about machine learning you have to understand the 
+tools that are available to you. Having a good understanding of these 
+tools will give you a leg up on any problems you come across.</p>
+<p data-selectable-paragraph="">Thanks for reading&nbsp;<img class="emoji" role="img" draggable="false" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/1f642.svg" alt="🙂">&nbsp;If you enjoyed the post, share the article with anyone you think needs it.&nbsp;<i>Let’s also connect on&nbsp;</i><a href="https://twitter.com/cdossman"><i>Twitter</i></a><i>,&nbsp;</i><a href="https://www.linkedin.com/in/christopherdossman/"><i>LinkedIn</i></a><i>, or follow me on&nbsp;<a href="https://medium.com/@cdossman">Medium</a>.&nbsp;</i></p>
+
+		</div><!-- .entry-content -->
+
+		
+	<nav class="navigation post-navigation" role="navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://www.educateai.org/how-i-created-a-40000-labeled-audio-dataset-in-4-hours-of-work-and-500/" rel="prev"><span class="arrow" aria-hidden="true">←</span><span class="screen-reader-text">Previous post:</span><span class="post-title">How I Created a 40,000 Labeled Audio Dataset in 4 Hours of Work and $500</span></a></div><div class="nav-next"><a href="https://www.educateai.org/deep-learning-performance-cheat-sheet/" rel="next"><span class="arrow" aria-hidden="true">→</span><span class="screen-reader-text">Next post:</span><span class="post-title">Deep Learning Performance Cheat&nbsp;Sheet</span></a></div></div>
+	</nav>
+	</div><!-- .post-inner -->
+
+	
+
+</article><!-- .post -->
+</div>
+
+		<div class="related-posts section-inner">
+
+			<h2 class="related-posts-title heading-size-3">Related Posts</h2>
+
+			<div class="posts">
+
+				<div class="posts-grid related-posts-grid grid mcols-1 tcols-2">
+
+					
+						<div class="grid-item">
+							<article class="preview preview-post post-423 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-machine-learning category-machine-learning-books category-machine-learning-engineer tag-artificial-intelligence-books tag-machine-learning" id="post-423">
+
+	
+		<figure class="preview-media">
+
+			
+				<a href="https://www.educateai.org/the-best-artificial-intelligence-and-machine-learning-books-in-2021/" class="faux-image aspect-ratio-16x10" style="background-image: url( https://www.educateai.org/wp-content/uploads/2021/03/Machine-learning-books-1080x721.jpg );">
+					<img src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-1080x721.jpg" class="attachment-chaplin_preview_image_high_resolution size-chaplin_preview_image_high_resolution wp-post-image" alt="Machine Learning Books" loading="lazy" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-1080x721.jpg 1080w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-300x200.jpg 300w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-1024x683.jpg 1024w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-768x512.jpg 768w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books-540x360.jpg 540w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-learning-books.jpg 1280w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="721">				</a>
+
+						
+		</figure><!-- .preview-media -->
+
+	
+	<header class="preview-header">
+
+		<h2 class="preview-title heading-size-3"><a href="https://www.educateai.org/the-best-artificial-intelligence-and-machine-learning-books-in-2021/">The Best Artificial Intelligence and Machine Learning Books in 2021</a></h2>
+	</header><!-- .preview-header -->
+
+</article><!-- .preview -->
+						</div><!-- .grid-item -->
+
+						
+						<div class="grid-item">
+							<article class="preview preview-post post-405 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-datasets category-machine-learning" id="post-405">
+
+	
+		<figure class="preview-media">
+
+			
+				<a href="https://www.educateai.org/the-engineers-guide-to-machine-learning-data-types/" class="faux-image aspect-ratio-16x10" style="background-image: url( https://www.educateai.org/wp-content/uploads/2021/03/Machine-Learning-Data-Types.jpg );">
+					<img src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Data-Types.jpg" class="attachment-chaplin_preview_image_high_resolution size-chaplin_preview_image_high_resolution wp-post-image" alt="Machine learning Data Typess" loading="lazy" srcset="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Data-Types.jpg 621w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Data-Types-300x144.jpg 300w, Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/Machine-Learning-Data-Types-540x259.jpg 540w" sizes="(max-width: 621px) 100vw, 621px" width="621" height="298">				</a>
+
+						
+		</figure><!-- .preview-media -->
+
+	
+	<header class="preview-header">
+
+		<h2 class="preview-title heading-size-3"><a href="https://www.educateai.org/the-engineers-guide-to-machine-learning-data-types/">The Engineers Guide to Machine Learning: 4 Data Types</a></h2>
+	</header><!-- .preview-header -->
+
+</article><!-- .preview -->
+						</div><!-- .grid-item -->
+
+						
+				</div><!-- .posts-grid -->
+
+			</div><!-- .posts -->
+
+		</div><!-- .related-posts -->
+
+	
+
+</main><!-- #site-content -->
+
+        		
+			<footer id="site-footer" role="contentinfo">
+
+				
+				
+					<div class="footer-widgets-outer-wrapper border-color-border section-inner">
+					
+						<div class="footer-widgets-wrapper grid tcols-2">
+
+															<div class="footer-widgets column-one grid-item">
+									<div class="widget_text widget widget_custom_html"><div class="widget_text widget-content"><h2 class="widget-title subheading heading-size-3">Subscribe</h2><div class="textwidget custom-html-widget"><form action="https://www.getrevue.co/profile/educateAI/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+<div class="revue-form-group">
+	<label for="member_email">Email address</label>
+	<div class="fx-relay-email-input-wrapper"><input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email" style="margin: 7px 0px; padding-right: 48px;"><div class="fx-relay-icon" style="bottom: 7px;"><button class="fx-relay-button" id="fx-relay-button" type="button" title="Generate New Alias" style="background-image: url(&quot;moz-extension://4aafdc4d-13bc-41b1-8ce1-c8af21018fe5/icons/make-new-alias.png&quot;);"></button></div></div>
+	</div>
+	<div class="revue-form-group">
+<label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+		<input class="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name" style="margin:7px 0">
+	</div>
+<div class="revue-form-group">
+		<label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+		<input class="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name" style="margin:7px 0"></div>
+	<div class="revue-form-actions">
+		<input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" style="margin:7px 0"></div>
+</form></div></div></div>								</div>
+							
+							
+						</div><!-- .footer-widgets-wrapper -->
+						
+					</div><!-- .footer-widgets-outer-wrapper -->
+
+				
+				<div class="footer-inner section-inner">
+
+					
+					<div class="footer-credits">
+
+						<p class="footer-copyright">© 2022 <a href="https://www.educateai.org/" rel="home">EducateAI – AI Education for 21st Century</a></p>
+
+						<p class="theme-credits color-secondary">
+													</p><!-- .theme-credits -->
+
+					</div><!-- .footer-credits -->
+
+				</div><!-- .footer-bottom -->
+
+				
+			</footer><!-- #site-footer -->
+
+			<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/wp-polyfill.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' + 'ipt>' );( document.contains ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://www.educateai.org/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' + 'ipt>' );
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/www.educateai.org\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/revue.js" id="revue-js"></script>
+<script type="text/javascript" src="Must-Know%20Machine%20Learning%20Algorithms%20for%20Engineers%20-%20EducateAI%20-%20AI%20Education%20for%2021st%20Century_files/wp-embed.js" id="wp-embed-js"></script>
+
+    
+
+
+</body></html>
+<!-- Page generated by LiteSpeed Cache 4.5.0.1 on 2022-02-26 01:55:59 -->
