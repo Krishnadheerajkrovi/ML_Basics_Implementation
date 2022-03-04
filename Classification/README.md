@@ -1,2 +1,2 @@
-1) Binary Classifier
-2) Multiclass Classifier
+
+https://machinelearningmastery.com/types-of-classification-in-machine-learning/

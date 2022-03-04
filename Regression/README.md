@@ -1,4 +1,1 @@
-1) Linear Regression
-2) Gradient Descent
-3) Logistic Regression
-
+https://towardsdatascience.com/5-types-of-regression-and-their-properties-c5e1fa12d55e
